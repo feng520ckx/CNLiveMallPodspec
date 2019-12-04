@@ -1,0 +1,6 @@
+framework module CNLiveMall {
+  umbrella header "CNLiveMall.h"
+
+  export *
+  module * { export * }
+}
