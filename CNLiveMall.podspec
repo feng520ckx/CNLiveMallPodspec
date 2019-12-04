@@ -147,7 +147,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'HYBLoopScrollView', '~> 3.2.1'
   spec.dependency 'SDWebImage', '~> 5.0'
   spec.dependency 'UICKeyChainStore'
-  spec.dependency 'LBXScan/LBXNative','~> 2.0'
   spec.dependency 'SQAppRouter', '~> 0.0.2'
   spec.dependency 'GQRatingView'
   spec.dependency 'UMengUShare/UI'
