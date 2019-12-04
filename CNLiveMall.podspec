@@ -135,7 +135,7 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   spec.dependency 'AFNetworking', '~> 3.1.0’
-  spec.dependency 'SDWebImage', '~> 3.8.2'
+  spec.dependency 'SDWebImage'
   spec.dependency 'WebViewJavascriptBridge','~> 6.0'
   spec.dependency 'MJRefresh', '~> 3.1.12'
   spec.dependency 'MJExtension', '~> 3.0.13'
