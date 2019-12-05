@@ -82,6 +82,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/feng520ckx/CNLiveMallPodspec.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = 'framework/CNLiveMall.framework'
+  spec.vendored_frameworks = 'framework/CNLiveAR.framework'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -119,7 +120,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.framework  = "CNLiveAR"
+  #spec.framework  = "CNLiveAR"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 

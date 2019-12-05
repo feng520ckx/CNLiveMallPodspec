@@ -1,0 +1,6 @@
+framework module CNLiveAR {
+  umbrella header "CNLiveAR-umbrella.h"
+
+  export *
+  module * { export * }
+}
