@@ -37,6 +37,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'MBProgressHUD', '1.1.0'
   spec.dependency 'Masonry', '1.1.0'
   spec.dependency 'FMDB', '2.7.5'
+  pod 'IQKeyboardManager', '~> 6.3.0'
   spec.dependency 'RTRootNavigationController', '~>0.6.6'
   spec.dependency 'DZNEmptyDataSet'
   spec.dependency 'WMPageController'
@@ -45,10 +46,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'UICKeyChainStore'
   spec.dependency 'SQAppRouter', '~> 0.0.2'
   spec.dependency 'GQRatingView'
-  spec.dependency 'UMengUShare/UI'
-  spec.dependency 'WechatOpenSDK','1.8.4'
-  spec.dependency 'UMengUShare/Social/QQ'
-  spec.dependency 'UMengAnalytics'
   spec.dependency 'UdeskSDK'
 
 end
