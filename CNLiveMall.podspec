@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'MBProgressHUD', '1.1.0'
   spec.dependency 'Masonry', '1.1.0'
   spec.dependency 'FMDB', '2.7.5'
-  pod 'IQKeyboardManager', '~> 6.3.0'
+  spec.dependency 'IQKeyboardManager', '~> 6.3.0'
   spec.dependency 'RTRootNavigationController', '~>0.6.6'
   spec.dependency 'DZNEmptyDataSet'
   spec.dependency 'WMPageController'
