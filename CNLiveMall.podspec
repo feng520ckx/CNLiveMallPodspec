@@ -41,7 +41,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'RTRootNavigationController', '~>0.6.6'
   spec.dependency 'DZNEmptyDataSet'
   spec.dependency 'WMPageController'
-  spec.dependency 'HYBLoopScrollView', '~> 3.2.1'
   spec.dependency 'SDWebImage', '5.2.3'
   spec.dependency 'UICKeyChainStore'
   spec.dependency 'SQAppRouter', '~> 0.0.2'
