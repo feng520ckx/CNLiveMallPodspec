@@ -15,6 +15,6 @@ FOUNDATION_EXPORT double CNLiveMallVersionNumber;
 FOUNDATION_EXPORT const unsigned char CNLiveMallVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CNLiveMall/PublicHeader.h>
-#import<CNLiveMall/HTTabBarController.h>
+#import<CNLiveMall/CNLiveMallManager.h>
 
 
