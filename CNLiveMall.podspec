@@ -27,9 +27,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "8.0"
 
   spec.source       = { :git => "https://github.com/feng520ckx/CNLiveMallPodspec.git", :tag => "#{spec.version}" }
-  #spec.resources = ['resource/SHDSSDK.bundle','resource/MBProgressHUD.bundle','resource/IQKeyboardManager.bundle','resource/PYPhotosView.bundle']
-  spec.resource_bundles = {'CNLiveMallSDK' => ['resource/*.*']}
-
+  spec.resources = ['resource/MBProgressHUD.bundle','resource/PYPhotosView.bundle']
   spec.compiler_flags = '-ObjC','-all_load'
   spec.vendored_frameworks = 'framework/CNLiveMall.framework','framework/CNLiveAR.framework'
   spec.dependency 'AFNetworking', '3.2.1'
