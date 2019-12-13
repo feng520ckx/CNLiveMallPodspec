@@ -16,19 +16,19 @@ NS_ASSUME_NONNULL_BEGIN
 /// 分享触发回调
 /// @param manager 当前manager
 /// @param data 分享携带的信息
-/// @param currentVc 当前控制器
-- (void)manager:(CNLiveMallManager *)manager shareDidClickWithData:(NSDictionary *)data currentVc:(UIViewController *)currentVc;
+/// @param formVC 控制器
+- (void)manager:(CNLiveMallManager *)manager shareDidClickWithData:(NSDictionary *)data formVC:(UIViewController *)formVC;
 
 /// 支付触发回调
 /// @param manager 当前manager
 /// @param data 支付携带的信息
-/// @param currentVc 当前控制器
-- (void)manager:(CNLiveMallManager *)manager payDidClickWithData:(NSDictionary *)data currentVc:(UIViewController *)currentVc;
+/// @param formVC 当前控制器
+- (void)manager:(CNLiveMallManager *)manager payDidClickWithData:(NSDictionary *)data formVC:(UIViewController *)formVC;
 
 /// 游客模式需要登录
 /// @param manager 当前的manager
-/// @param currentVc 当前控制器
-- (void)manager:(CNLiveMallManager *)manager willNeedLogin:(UIViewController *)currentVc;
+/// @param formVC 当前控制器
+- (void)manager:(CNLiveMallManager *)manager willNeedLogin:(UIViewController *)formVC;
 
 @end
 
@@ -50,6 +50,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 游客模式进入后 触发主工程登录  登录成功后调用方法登录sdk
 /// @param userInfo 携带用户信息 uid & token
 - (void)loginWithUserInfo:(NSDictionary *)userInfo;
+
+
+/// 退出登录 清除用户信息
+- (void)logout;
 
 
 @end
