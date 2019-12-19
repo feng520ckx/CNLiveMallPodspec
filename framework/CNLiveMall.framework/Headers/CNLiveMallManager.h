@@ -44,6 +44,8 @@ typedef NS_ENUM(NSInteger,CNLiveMallSDKEnvironment) {
 /// @param environment  SDK运行环境
 - (instancetype)initWithUserInfo:(NSDictionary *)userInfo environment:(CNLiveMallSDKEnvironment)environment;
 
+//仅供作为获取实例化后的对象 不能作为初始化方法
++ (instancetype)shareManager;
 
 @property (nonatomic, weak) id<CNLiveMallManagerDelegate> delegate;
 
