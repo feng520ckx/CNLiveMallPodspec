@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/feng520ckx/CNLiveMallPodspec.git", :tag => "#{spec.version}" }
   spec.resource_bundles = {'CNLiveMallSDK' => ['resource/*.*']}
   spec.compiler_flags = '-ObjC','-all_load'
-  spec.vendored_frameworks = 'framework/CNLiveMall.framework','framework/CNLiveAR.framework'
+  spec.vendored_frameworks = 'framework/CNLiveMall.framework'
   spec.dependency 'AFNetworking', '3.2.1'
   spec.dependency 'WebViewJavascriptBridge','6.0.3'
   spec.dependency 'MJRefresh', '3.2.0'

@@ -32,14 +32,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+typedef NS_ENUM(NSInteger,CNLiveMallSDKEnvironment) {
+    CNLiveMallSDKEnvironmentENV_TEST = 0,//测试环境
+    CNLiveMallSDKEnvironmentENV_LIVE = 1,//线上环境
+};
+
 @interface CNLiveMallManager : NSObject
 
-/// 已登录状态初始化SDK
-/// @param userInfo 用户信息 uid & token
-- (instancetype)initWithUserInfo:(NSDictionary *)userInfo;
+/// /初始化SDK
+/// @param userInfo 用户信息 uid & token  游客模式userInfo 设置为nil
+/// @param environment  SDK运行环境
+- (instancetype)initWithUserInfo:(NSDictionary *)userInfo environment:(CNLiveMallSDKEnvironment)environment;
 
-/// 获取单例对象 如果没有配置数据 则为默认游客模式
-+ (instancetype)shareManager;
 
 @property (nonatomic, weak) id<CNLiveMallManagerDelegate> delegate;
 
