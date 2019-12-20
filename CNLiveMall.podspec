@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CNLiveMall"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "CNLiveMallSDK"
   spec.description  = <<-DESC
                     this is CNLiveMallSDK
